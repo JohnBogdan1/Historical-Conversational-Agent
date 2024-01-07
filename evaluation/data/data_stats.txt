@@ -1,0 +1,29 @@
+D:\Programe\anaconda3\envs\dl_env\python.exe "C:/Users/Bogdan/PycharmProjects/Historical Conversational Agent/evaluation/get_wiki_paragraphs.py"
+
+https://en.wikipedia.org/wiki/Abraham_Lincoln
+Abraham Lincoln
+######################################################################################################
+
+Average # words / paragraph: 107.8267716535433
+
+https://en.wikipedia.org/wiki/Albert_Einstein
+Albert Einstein
+######################################################################################################
+
+Average # words / paragraph: 88.3359375
+
+https://en.wikipedia.org/wiki/Isaac_Asimov
+Isaac Asimov
+######################################################################################################
+
+Average # words / paragraph: 96.5944055944056
+
+https://en.wikipedia.org/wiki/Nikola_Tesla
+Nikola Tesla
+######################################################################################################
+
+Average # words / paragraph: 96.3305785123967
+
+[Total] Average # words / paragraph: 97.2719233150864
+
+Process finished with exit code 0

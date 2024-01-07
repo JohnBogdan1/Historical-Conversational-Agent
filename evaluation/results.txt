@@ -1,0 +1,498 @@
+- only_summary
+- only_summary dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: BLEU
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.560
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.462
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.569
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.531
+
+- only_summary
+- only_summary dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: BERT
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.608
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.421
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.585
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.634
+
+- only_summary
+- only_summary dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: F1
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.715
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.604
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.687
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.719
+
+
+- whole_page
+- only_summary dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: BLEU
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.306
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.420
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.369
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.308
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.319
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.435
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.419
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.432
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.320
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.444
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.419
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.460
+
+- whole_page
+- only_summary dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: BERT
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> 0.439
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.491
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.470
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.473
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.386
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.398
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.485
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.470
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.463
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.519
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.531
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.593
+
+- whole_page
+- only_summary dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: F1
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.425
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.525
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.476
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.407
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.437
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.547
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.536
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.552
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.433
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.568
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.536
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.596
+
+
+- whole_page
+- whole_page dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: BLEU
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.447
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.438
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.344
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.410
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.461
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.450
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.384
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.406
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.459
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.458
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.384
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.419
+
+- whole_page
+- whole_page dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: BERT
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.546
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.515
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.399
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.525
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.547
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.520
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.448
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.517
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.567
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.539
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.448
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.532
+
+- whole_page
+- whole_page dataset
+- model_name = "deepset/roberta-large-squad2"
+- metric: F1
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.592
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.553
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.464
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.525
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.604
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.573
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.512
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.517
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.595
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.591
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.512
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.557
+
+------------------------------------------------------------------------------------------------------------------------
+
+- only_summary
+- only_summary dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: BLEU
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.435
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.310
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.643
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.495
+
+- only_summary
+- only_summary dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: BERT
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.577
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.500
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.712
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.631
+
+- only_summary
+- only_summary dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: F1
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.578
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.420
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.709
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.651
+
+
+- whole_page
+- only_summary dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: BLEU
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.225
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.364
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.476
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.306
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.281
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.319
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.432
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.328
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.243
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.256
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.417
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.467
+
+- whole_page
+- only_summary dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: BERT
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.420
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.463
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.539
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.455
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.510
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.460
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.487
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.439
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.426
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.400
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.469
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.561
+
+- whole_page
+- only_summary dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: F1
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.357
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.493
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.535
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.399
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.442
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.427
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.511
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.401
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.368
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.351
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.486
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.544
+
+
+- whole_page
+- whole_page dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: BLEU
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.335
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.354
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.392
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.402
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.394
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.334
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.346
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.345
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BLEU: 0.358
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BLEU: 0.243
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BLEU: 0.361
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BLEU: 0.421
+
+- whole_page
+- whole_page dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: BERT
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.490
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.458
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.446
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.491
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.568
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.473
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.396
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.416
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> BERT: 0.524
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> BERT: 0.391
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> BERT: 0.416
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> BERT: 0.507
+
+- whole_page
+- whole_page dataset
+- model_name = "anas-awadalla/opt-125m-squad"
+- metric: F1
+- top_k = 3
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.466
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.478
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.467
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.526
+- top_k = 5
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.555
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.437
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.437
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.449
+- top_k = 7
+Abraham Lincoln (https://en.wikipedia.org/wiki/Abraham_Lincoln) -> F1: 0.490
+Albert Einstein (https://en.wikipedia.org/wiki/Albert_Einstein) -> F1: 0.332
+Isaac Asimov (https://en.wikipedia.org/wiki/Isaac_Asimov) -> F1: 0.451
+Nikola Tesla (https://en.wikipedia.org/wiki/Nikola_Tesla) -> F1: 0.539
+
+------------------------------------------------------------------------------------------------------------------------
+
+- only_summary = True
+- dataset path = data/only_summary/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+
+abraham lincoln -> BLEU: 0.486
+abraham lincoln -> BERT: 0.654
+abraham lincoln -> F1: 0.621
+
+albert einstein -> BLEU: 0.371
+albert einstein -> BERT: 0.522
+albert einstein -> F1: 0.510
+
+isaac asimov -> BLEU: 0.629
+isaac asimov -> BERT: 0.683
+isaac asimov -> F1: 0.717
+
+nikola tesla -> BLEU: 0.470
+nikola tesla -> BERT: 0.613
+nikola tesla -> F1: 0.609
+
+
+Process finished with exit code 0
+
+
+- only_summary = False
+- dataset path = data/only_summary/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+- top_k = 3
+Batches: 100%|██████████| 4/4 [00:03<00:00,  1.24it/s]
+Abraham Lincoln -> BLEU: 0.268
+Abraham Lincoln -> BERT: 0.400
+Abraham Lincoln -> F1: 0.399
+
+Batches: 100%|██████████| 4/4 [00:00<00:00,  4.26it/s]
+Albert Einstein -> BLEU: 0.326
+Albert Einstein -> BERT: 0.473
+Albert Einstein -> F1: 0.434
+
+Batches: 100%|██████████| 5/5 [00:01<00:00,  3.69it/s]
+Isaac Asimov -> BLEU: 0.396
+Isaac Asimov -> BERT: 0.437
+Isaac Asimov -> F1: 0.487
+
+Batches: 100%|██████████| 4/4 [00:01<00:00,  3.41it/s]
+Nikola Tesla -> BLEU: 0.215
+Nikola Tesla -> BERT: 0.350
+Nikola Tesla -> F1: 0.300
+
+
+Process finished with exit code 0
+
+
+- only_summary = False
+- dataset path = data/only_summary/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+- top_k = 5
+Batches: 100%|██████████| 4/4 [00:02<00:00,  1.38it/s]
+Abraham Lincoln -> BLEU: 0.242
+Abraham Lincoln -> BERT: 0.395
+Abraham Lincoln -> F1: 0.366
+
+Batches: 100%|██████████| 4/4 [00:01<00:00,  3.92it/s]
+Albert Einstein -> BLEU: 0.278
+Albert Einstein -> BERT: 0.473
+Albert Einstein -> F1: 0.393
+
+Batches: 100%|██████████| 5/5 [00:01<00:00,  3.38it/s]
+Isaac Asimov -> BLEU: 0.436
+Isaac Asimov -> BERT: 0.530
+Isaac Asimov -> F1: 0.539
+
+Batches: 100%|██████████| 4/4 [00:01<00:00,  3.22it/s]
+Nikola Tesla -> BLEU: 0.211
+Nikola Tesla -> BERT: 0.383
+Nikola Tesla -> F1: 0.305
+
+
+Process finished with exit code 0
+
+
+- only_summary = False
+- dataset path = data/only_summary/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+- top_k = 7
+Batches: 100%|██████████| 4/4 [00:02<00:00,  1.33it/s]
+Abraham Lincoln -> BLEU: 0.245
+Abraham Lincoln -> BERT: 0.406
+Abraham Lincoln -> F1: 0.373
+
+Batches: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]
+Albert Einstein -> BLEU: 0.274
+Albert Einstein -> BERT: 0.441
+Albert Einstein -> F1: 0.358
+
+Batches: 100%|██████████| 5/5 [00:01<00:00,  3.51it/s]
+Isaac Asimov -> BLEU: 0.436
+Isaac Asimov -> BERT: 0.530
+Isaac Asimov -> F1: 0.539
+
+Batches: 100%|██████████| 4/4 [00:01<00:00,  3.54it/s]
+Nikola Tesla -> BLEU: 0.238
+Nikola Tesla -> BERT: 0.406
+Nikola Tesla -> F1: 0.309
+
+
+Process finished with exit code 0
+
+
+- only_summary = False
+- dataset path = data/whole_page/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+- top_k = 3
+Batches: 100%|██████████| 4/4 [00:02<00:00,  1.38it/s]
+D:\Programe\anaconda3\envs\dl_env\lib\site-packages\transformers\pipelines\base.py:996: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+Abraham Lincoln -> BLEU: 0.361
+Abraham Lincoln -> BERT: 0.464
+Abraham Lincoln -> F1: 0.493
+
+Batches: 100%|██████████| 4/4 [00:00<00:00,  4.83it/s]
+Albert Einstein -> BLEU: 0.315
+Albert Einstein -> BERT: 0.465
+Albert Einstein -> F1: 0.421
+
+Batches: 100%|██████████| 5/5 [00:01<00:00,  3.70it/s]
+Isaac Asimov -> BLEU: 0.365
+Isaac Asimov -> BERT: 0.393
+Isaac Asimov -> F1: 0.465
+
+Batches: 100%|██████████| 4/4 [00:01<00:00,  2.63it/s]
+Nikola Tesla -> BLEU: 0.398
+Nikola Tesla -> BERT: 0.461
+Nikola Tesla -> F1: 0.500
+
+
+Process finished with exit code 0
+
+
+- only_summary = False
+- dataset path = data/whole_page/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+- top_k = 5
+Batches: 100%|██████████| 4/4 [00:02<00:00,  1.45it/s]
+D:\Programe\anaconda3\envs\dl_env\lib\site-packages\transformers\pipelines\base.py:996: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+Abraham Lincoln -> BLEU: 0.337
+Abraham Lincoln -> BERT: 0.442
+Abraham Lincoln -> F1: 0.464
+
+Batches: 100%|██████████| 4/4 [00:00<00:00,  4.47it/s]
+Albert Einstein -> BLEU: 0.279
+Albert Einstein -> BERT: 0.476
+Albert Einstein -> F1: 0.402
+
+Batches: 100%|██████████| 5/5 [00:01<00:00,  3.23it/s]
+Isaac Asimov -> BLEU: 0.397
+Isaac Asimov -> BERT: 0.469
+Isaac Asimov -> F1: 0.508
+
+Batches: 100%|██████████| 4/4 [00:01<00:00,  3.71it/s]
+Nikola Tesla -> BLEU: 0.373
+Nikola Tesla -> BERT: 0.459
+Nikola Tesla -> F1: 0.462
+
+
+Process finished with exit code 0
+
+
+- only_summary = False
+- dataset path = data/whole_page/
+- model_name = "danyaljj/gpt2_question_answering_squad2"
+- top_k = 7
+Batches: 100%|██████████| 4/4 [00:03<00:00,  1.31it/s]
+D:\Programe\anaconda3\envs\dl_env\lib\site-packages\transformers\pipelines\base.py:996: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+Abraham Lincoln -> BLEU: 0.351
+Abraham Lincoln -> BERT: 0.463
+Abraham Lincoln -> F1: 0.490
+
+Batches: 100%|██████████| 4/4 [00:00<00:00,  4.94it/s]
+Albert Einstein -> BLEU: 0.298
+Albert Einstein -> BERT: 0.477
+Albert Einstein -> F1: 0.403
+
+Batches: 100%|██████████| 5/5 [00:01<00:00,  3.45it/s]
+Isaac Asimov -> BLEU: 0.397
+Isaac Asimov -> BERT: 0.469
+Isaac Asimov -> F1: 0.508
+
+Batches: 100%|██████████| 4/4 [00:00<00:00,  4.51it/s]
+Nikola Tesla -> BLEU: 0.377
+Nikola Tesla -> BERT: 0.447
+Nikola Tesla -> F1: 0.454
+
+
+Process finished with exit code 0

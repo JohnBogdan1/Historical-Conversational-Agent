@@ -1,0 +1,1 @@
+Fiecare linie are perechea (Q(Question), A(Answer)), respectiv (Q(Question), A(Answer), P(Prediction)).

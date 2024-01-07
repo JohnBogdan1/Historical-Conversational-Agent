@@ -1,0 +1,26 @@
+Q, A, P
+Who was Albert Einstein? | A German-born theoretical physicist |  a German-born theoretical physicist,
+What is Einstein best known for? | Developing the theory of relativity |  developing the theory of relativity,
+Which are the two pillars of the modern physics? | Relativity and quantum mechanics |  Relativity and quantum mechanics
+What formula is considered "the world's most famous equation"? | His mass-energy equivalence formula E = mc2, which arises from relativity theory |  E = mc2,
+When did he receive the Nobel Prize? | Received the Nobel Prize in Physics in 1921 |  1921
+For what did he receive the Nobel Prize in Physics in 1921? | For his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect |  his discovery of the law of the photoelectric effect",
+What discovery is considered a step in the development of quantum theory? | The discovery of the law of the photoelectric effect |  the law of the photoelectric effect",
+In what year did Einstein published four groundbreaking papers? | In 1905 |  1905,
+What is the year 1905 described as? | A year sometimes described as his annus mirabilis |  annus mirabilis
+What did the groundbreaking papers outline? | Outlined the theory of the photoelectric effect, explained Brownian motion, introduced special relativity, and demonstrated mass-energy equivalence |  the theory of the photoelectric effect,
+What led Einstein to develop his special theory of relativity? | The thought that the laws of classical mechanics could no longer be reconciled with those of the electromagnetic field |  laws of classical mechanics could no longer be reconciled with those of the electromagnetic field,
+When did he publish a paper on general relativity? | In 1916 |  1916,
+When did he introduce his theory of gravitation? | In 1916 |  1916,
+When did he apply the general theory of relativity to model the structure of the universe? | In 1917 |  1917,
+What led to his explanations of particle theory and the motion of molecules? | Because he continued to deal with problems of statistical mechanics and quantum theory |  He continued to deal with problems of statistical mechanics and quantum theory,
+What laid the foundation of the photon theory of light? | The thermal properties of light and the quantum theory of radiation |  quantum theory of radiation,
+What was he objecting about nature, despite his great contributions to quantum mechanics? | Was objecting that nature "does not play dice" |  "does not play dice".
+How did he attempt to devise a unified field theory? | By generalizing his geometric theory of gravitation to include electromagnetism |  by generalizing his geometric theory of gravitation to include electromagnetism.
+Where was Einstein born? | In the German Empire |  German-born
+When did Einstein move to Switzerland? | In 1895 |  1895,
+When did he forsake his German citizenship? | After he moved to Switzerland in 1895, the following year |  1895,
+When did he enroll in the mathematics and physics teaching diploma program at the Swiss Federal polytechnic school in Zürich? | In 1897 |  1897,
+When did he graduate the Swiss Federal polytechnic school in Zürich? | In 1900 |  1900.
+When did he acquire the Swiss citizenship? | In 1901 |  1901,
+When was he awarded a PhD by the University of Zurich? | In 1905 |  1905,
